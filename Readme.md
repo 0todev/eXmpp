@@ -63,12 +63,12 @@ guide, examples and details on using the classes and methods exposed by the S22.
 
 ### Credits
 
-This library is copyright © 2013-2014 Torben Könke.
+This library is copyright © 2013-2014 Torben Könke, © 2018 Tatenda Caston Hove.
 
 
 ### License
 
-This library is released under the [MIT license](https://github.com/smiley22/S22.Xmpp/blob/master/License.md).
+This library is released under the [MIT license](https://github.com/0todev/eXmpp/blob/master/License.md).
 
 
 ### Bug reports
