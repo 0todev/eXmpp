@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Hove.XMPP</AssemblyName>
+    <RootNamespace>Org.TatlaCas.Library.eXmpp</RootNamespace>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>Tatlacas.Library.eXmpp</PackageId>
+    <PackageVersion>1.0</PackageVersion>
+    <Authors>Tatenda Caston Hove</Authors>
+    <Description>XMPP Client Library Component
+Features:
+
+- Supports XMPP over TLS/SSL
+- SASL Authentication (PLAIN, DIGEST-MD5, and SCRAM-SHA-1)
+- User Avatars
+- SOCKS5 and In-Band File-Transfer
+- In-Band Registration
+- User Mood
+- User Tune
+- User Activity
+- Simplified Blocking
+- API designed to be very easy to use
+- Well documented with lots of example code
+- Free to use in commercial and personal projects (MIT License)</Description>
+    <Owners>zerotodev</Owners>
+    <Summary>XMPP client library</Summary>
+    <Title>eXmpp</Title>
+    <PackageLicenseUrl>https://github.com/smiley22/S22.Xmpp/blob/master/License.md</PackageLicenseUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Xml.ReaderWriter" Version="4.3.1" />
+    <PackageReference Include="Ninject" Version="3.3.4" />
+    <PackageReference Include="System.Xml.XDocument" Version="4.3.0" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+    <Compile Remove="Connection\SocketManager.cs" />
+    <Compile Remove="Connection\SocketTrackId.cs" />
+    <Compile Remove="Connection\StateObject.cs" />
+    <Compile Remove="Connection\XmppConnection.cs" />
+  </ItemGroup>
+</Project>
